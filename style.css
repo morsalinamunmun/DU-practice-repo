@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Open+Sans:wght@500&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Open+Sans:wght@500;600&family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-b{
+    background-color: rgb(190, 13, 13);
+}
+.logo-1 img{
+    height: 52px;
+    width: 50px;
+    /* position: absolute;
+    top: 45%; */
+} 
+.logo-text > h6{
+    /* margin-left: 87px; */
+    color: white;
+    font-size: 10px;
+    font-style: bold;
+}
+.menu{
+    position: absolute;
+    bottom: 80.95%;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .listt{
+     margin-left: 130px;
+ }
+ .contain{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bg{
+    background-color: rgb(116, 132, 148);
+}
+.head-text-col-1{
+    margin-right: 700px;
+    position: absolute;
+    top: 55%;
+}
+.head-text-col-1 p{
+    font-size: 20px;
+    font-style: bold;
+}
+.head-text-col-2{
+    position: absolute;
+    top: 58.5%;
+    left: 57%;
+    margin-right: 230px ;
+}
+.head-text-col-2 ul li{
+     font-size: 10px;
+}
+/* hero css */
+.A-pic img{
+    width: 200px;
+    height: 190px;
+}
+.name strong{
+    color: rgb(2, 2, 96);
+    text-align: center;
+}
+.roww{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+.A-bg{
+    background-color: white;
+    padding: 35px 25px 0px 25px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+    padding: 35px 42px;
+}
+.A-about h3{
+    color: rgb(2, 2, 96);
+    padding-bottom: 10px;
+}
+.A-about{
+    background-color: white;
+    padding: 35px 25px 0px 25px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+/* intro css */
+.team{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.content{
+    line-height: 2px;
+}
+.content img{
+    width: 210px;
+    height: 200px;
+}
+.content strong{
+    color: rgb(2, 2, 96);
+}
+.content-bg{
+    background-color: white;
+    padding: 55px 0px 50px 5px;
+    width: 95%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+/* number css */
+.u-no{
+    color: rgb(2, 2, 96);
+    margin-bottom: 50px;   
+}
+.row2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+/* .col2{
+    width: 70%;
+} */
+.icon-b{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 38px 0px 38px 0px ;
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.icon-b2{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 38px 0px 38px 0px ;
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.icon-b4{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 115px;
+    margin-right: 115px;
+    padding: 38px 0px 38px 0px ;
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.background{
+    background-color: rgb(61, 61, 254);
+}
+/* welcome css */
+.col3 img{
+    width: 520px;
+    height: 410px;
+}
+.row3{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col3{
+    margin-right: 10px;
+    text-align: justify;
+}
+.col3 h3{
+    color: rgb(2, 2, 96);
+    margin-bottom: 10px;
+}
+.col3 button{
+    padding: 8px 60px;
+}
+/* latest news css */
+.row4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.news h3{
+    color: rgb(2, 2, 96);
+}
+.col4 img{
+    width: 400px;
+    height: 280px;
+}
+.col4{
+    background-color: white;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.2);
+    padding: 0px 0px 90px 0px;
+}
+.col4 a{
+    border: 2px solid rgb(247, 160, 30);
+    border-radius: 25px;
+    padding: 10px 40px;
+    color: rgb(2, 2, 96);
+}
+.col4 p{
+    padding-bottom: 20px;
+}
+.col4 button{
+    position: absolute;
+    margin-left: 45%;
+}
+.button1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(2, 2, 96);
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(247, 160, 30);
+    background-color: rgb(247, 160, 30);
+}
+.button1 a{
+    color: rgb(2, 2, 96);
+    text-align: center;
+    display: block;
+}
+.row4 a{
+    color: rgb(2, 2, 96);
+}
+/*  */
+/* reach activities css */
+.row8{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col8 img{
+    width: 380px;
+    height: 200px;
+}
+.col8 a{
+    border: 2px solid rgb(2, 2, 96);
+    border-radius: 25px;
+    padding: 5px 20px;
+    color: rgb(2, 2, 96);
+}
+.active h2{
+    color: rgb(2, 2, 96);
+    text-align: center;
+    padding-bottom: 40px;
+}
+.col7 button{
+    position: absolute;
+    margin-left: 45%;
+}
+.col8{
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.col8 strong{
+    font-size: 18px;
+}
+.col8 button{
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+/* featured css */
+.row9{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 200px;
+}
+.row10{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.row11{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col9{
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.row11{
+    margin-right: 40px;
+}
+.bo{
+    border: 1px solid rgb(211, 210, 210);
+}
+.col9 img{
+    width: 350px;
+}
+.c img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 140px;
+}
+.r1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.c strong{
+    font-size: 15px;
+}
+/* video css */
+.row11{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col10{
+    background-color: white;
+}
+/*footer css*/
+.row12{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.col11 ul li{
+    list-style-type: circle;
+}
+.footer{
+    background-color: rgb(8, 49, 93);
+    margin-top: 200px;
+}
+.copy{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(18, 69, 124);
+}
